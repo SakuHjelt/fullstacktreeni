@@ -14,7 +14,7 @@ router.get('/', function (req, res) {
 router.post('/', function (req, res) {
     var city = req.body.city;
 
-    Cities.insert(vity, function (err, result) {
+    cities.insert(city, function (err, result) {
         if (err)
             return res.json(err);
         return res.json(result);

@@ -13,7 +13,7 @@ class Weather {
             console.log(err);
             callback({ error: 'could not reach openweather.org API'});
         })
-    }
+    } 
 }
 
 module.exports = Weather;
